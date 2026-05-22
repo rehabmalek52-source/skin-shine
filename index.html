@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mon Site</title>
+
+  <style>
+    body{
+      margin:0;
+      padding:0;
+      font-family:Arial, sans-serif;
+      background:#111;
+      color:white;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      height:100vh;
+      text-align:center;
+    }
+
+    .box{
+      background:#222;
+      padding:40px;
+      border-radius:15px;
+      box-shadow:0 0 20px rgba(255,255,255,0.1);
+    }
+
+    h1{
+      color:#00ff99;
+    }
+
+    p{
+      color:#ccc;
+    }
+
+    button{
+      padding:10px 20px;
+      border:none;
+      border-radius:10px;
+      background:#00ff99;
+      cursor:pointer;
+      font-size:16px;
+    }
+
+    button:hover{
+      background:#00cc77;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="box">
+    <h1>Bienvenue 👋</h1>
+    <p>hada awal site ta3i b GitHub Pages</p>
+
+    <button onclick="showMessage()">
+      Click
+    </button>
+  </div>
+
+  <script>
+    function showMessage(){
+      alert("Site khdam 🚀");
+    }
+  </script>
+
+</body>
+</html>
